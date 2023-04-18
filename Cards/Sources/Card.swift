@@ -105,6 +105,7 @@ import UIKit
             }
         }
         detailVC.isViewAdded = false
+        detailVC.modalPresentationStyle = .fullScreen
         if let content = contentViewController{
             self.superVC = superVC
             detailVC.addChild(content)
